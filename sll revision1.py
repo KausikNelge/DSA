@@ -28,6 +28,7 @@ obj=SLL()
 obj.InsertAtEnd(10)
 obj.InsertAtEnd(20)
 obj.InsertAtEnd(30)
+obj.InsertAtEnd(40)
 
 
 obj.printLL()
