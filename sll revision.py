@@ -15,7 +15,7 @@ class SLL:
         temp = Node(value)
 
         if self.head == None:
-            self.head = temp
+            self.head = temp   # so you have initilized the node empty ( self.head == none) so the temp value which is tee input it should 
 
         else:
             temp.next = self.head
@@ -30,7 +30,7 @@ class SLL:
                 t1= t1.next      
             t1.next = temp1      
         else:
-            self.head=temp1     #f
+            self.head=temp1     
 
 
 
