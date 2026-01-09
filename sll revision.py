@@ -30,7 +30,7 @@ class SLL:
                 t1= t1.next      
             t1.next = temp1      
         else:
-            self.head=temp1    
+            self.head=temp1     #f
 
 
 
