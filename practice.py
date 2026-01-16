@@ -112,11 +112,91 @@
 #         print(i)
 import math 
 
-n= 36
-s = int(math.sqrt(n))
-for i in range(1,s+1):
-    if n % i  == 0:
-        print(i)
-        helper = n//i
-        if helper != i:
-            print(helper)
+# n= 36
+# s = int(math.sqrt(n))
+# for i in range(1,s+1):
+#     if n % i  == 0:
+#         print(i)
+#         helper = n//i
+#         if helper != i:
+#             print(helper)
+# 16/01/26 /prime numebrs
+# n =2
+# count =0 
+
+# for i in range(1,n+1):
+#     if n % i == 0:
+#         count += 1
+#         # helper = n//i
+#         # print(helper)
+# #         if helper != i:
+# #             count+=1
+# # print(count)
+# if count == 2:
+#     print("prime")
+# else:
+#     print("not a prime")     
+
+# n=10
+# m=40
+
+# for i in range(min(n,m),n+m+1):
+#     if n% i == 0 and m%i == 0:
+#         print(1,i)
+#         break
+
+
+# n=52
+# m=10
+# while n> 0 :
+#     if n > m:
+#         n= n%m
+#     else:
+#         m = m % n
+
+# # print(a,b)
+
+# if n==0:
+#     print("gcd is", m)
+# else:
+#     print("gcd is", n)
+# # shortcut
+
+
+# # a = 52 b=10
+# def gcd(a,b):
+#     while b:
+#         a,b = b, a%b    #here first a = 52 and b= 10 the operationn starts from the right a%b which is 52
+#         print(a)                 #52/10 reminder 2  which gets stored in b and the b value is 10 which gets stored in a
+#                          # now a =10 and b = 2  10/2 gives reminder 0 which  makes the condition  false whic is b = False
+#                          # print(a)
+# print(gcd(52,10))        
+
+
+
+# n =5
+# for i in range(0,n):
+#     n= i+n
+# print(n)
+
+def reverse_arr(arr):
+    arr = [1, 2, 3, 4, 5, 6]
+
+    left =0 
+    right= len(arr)-1
+#     while left < right:
+#         arr[left],arr[right] = arr[right],arr[left]
+#         left += 1
+#         right -=1
+
+
+     
+#     return[arr]
+# print(reverse_arr([]))
+
+
+
+pcr = [3,5,6]
+b = pcr[ :: -1]
+
+print(b)
