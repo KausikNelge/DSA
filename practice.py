@@ -179,11 +179,11 @@ import math
 #     n= i+n
 # print(n)
 
-def reverse_arr(arr):
-    arr = [1, 2, 3, 4, 5, 6]
+# def reverse_arr(arr):
+#     arr = [1, 2, 3, 4, 5, 6]
 
-    left =0 
-    right= len(arr)-1
+#     left =0 
+#     right= len(arr)-1
 #     while left < right:
 #         arr[left],arr[right] = arr[right],arr[left]
 #         left += 1
@@ -196,7 +196,104 @@ def reverse_arr(arr):
 
 
 
-pcr = [3,5,6]
-b = pcr[ :: -1]
+# pcr = [3,5,6]
+# b = pcr[ :: -1]
 
-print(b)
+# print(b)
+
+
+
+
+
+
+
+
+
+# arr = [3,4,3,2,6]
+# seen = {}
+
+# for num in seen:
+#     if :
+        
+
+
+
+# 17/01/26
+
+# fibonacci numbers
+# 
+# def fib_num(n):
+#     if n< 0:
+#         return " niGga"
+#     elif n==1:
+#         return [1]
+#     elif n==2:
+#         return [0,1]
+#     else:
+#         fib_seq = [0,1]
+#         for i in range(2,n+1):
+#             fib1= fib_seq [i-1] + fib_seq [i-2]
+#             fib_seq.append(fib1)
+#             return fib_seq
+        
+# print(fib_num(4))
+# n= 5
+# prev= 0
+# curr = 1
+# print(prev)
+# print(curr)
+# for i in range(n-2):
+#     prev , curr = curr ,prev+curr
+#     # curr+=1
+#     print(curr)
+
+# n =3
+# prev =0
+# curr = 1
+# print(prev)
+# print(curr)
+# for i in range(n-1):
+#     prev,curr = curr ,curr+prev
+#     print(curr)
+
+
+# n =8
+
+# fibs = [0,1]
+# prev = 0 
+# curr = 1
+# for i in range (n-2):
+    
+#     prev ,curr = curr,prev+curr
+#     fibs.append(curr)
+# print(fibs)
+
+# nums = [1, 2, 3]
+# seen = {}
+# count = 0 
+# for n in nums:
+#     if n in seen:
+#         print("not distinct")
+#         break
+#     seen[n]=True
+# else:
+#     print("distinct")
+
+
+nums = [1, 2, 3]
+seen = set()
+for n in nums:
+    if n in seen:
+        seen[n]= True
+        seen.add(n)
+        print("True")
+        break
+else:
+    print("false    ")
+
+
+
+
+
+
+
