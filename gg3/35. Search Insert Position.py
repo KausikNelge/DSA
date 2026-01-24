@@ -1,4 +1,4 @@
-nums = [1,3,5,6]
+nums = [1,3,5,6,9]
 target = 5
 def insert():
     for i in range(len(nums)):
